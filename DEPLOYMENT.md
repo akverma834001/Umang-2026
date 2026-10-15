@@ -96,21 +96,43 @@ To ensure zero data loss during high-stakes inter-house festivals:
 
 ## 5. Deployment Commands
 
-### Backend Deployment (Docker / Linux VM / Cloud Run):
+### Frontend & Serverless Full-Stack Deployment on Vercel:
+
+The platform is pre-configured for seamless zero-config deployment on **Vercel** with two supported models:
+
+#### Mode A: Full-Stack Unified Vercel Deployment (Recommended)
+Both the React Vite frontend and FastAPI backend are deployed together on Vercel:
+1. Push your code to a GitHub/GitLab repository.
+2. In the [Vercel Dashboard](https://vercel.com), click **Add New > Project** and import the repository.
+3. Keep **Root Directory** as `./` (default).
+4. Vercel automatically detects [`vercel.json`](file:///c:/Users/abhis/Desktop/UMANG/Application/12.9/vercel.json) and [`package.json`](file:///c:/Users/abhis/Desktop/UMANG/Application/12.9/package.json):
+   - **Build Command**: `npm --prefix frontend install && npm --prefix frontend run build`
+   - **Output Directory**: `frontend/dist`
+   - **Backend API**: The ASGI entrypoint [`api/index.py`](file:///c:/Users/abhis/Desktop/UMANG/Application/12.9/api/index.py) automatically serves FastAPI at `/api/*` via Vercel's Python Serverless Runtime.
+   - **SPA Routing**: Non-API routes are rewritten to `/index.html` so client-side routes (`/admin/login`, `/schedule`, `/sports`, etc.) refresh cleanly without 404 errors.
+5. In **Project Settings > Environment Variables**, add:
+   - `DATABASE_URL`: `postgresql+psycopg2://[USER]:[PASSWORD]@[HOST]:5432/[DB]?sslmode=require` (e.g., from Neon or Supabase)
+   - `SECRET_KEY`: High-entropy 32-character random string (e.g., `openssl rand -hex 32`)
+   - `ADMIN_USERNAME`: `admin`
+   - `ADMIN_PASSWORD`: Your chosen secure administrator password
+   - `CANONICAL_TIMEZONE`: `Asia/Kolkata`
+6. Click **Deploy**.
+
+#### Mode B: Decoupled Frontend-Only Deployment
+If you prefer running FastAPI on an external server (e.g. Render, Railway, AWS EC2, or Cloud Run):
+1. In Vercel, set **Root Directory** to `frontend`.
+2. The [`frontend/vercel.json`](file:///c:/Users/abhis/Desktop/UMANG/Application/12.9/frontend/vercel.json) file automatically handles SPA route fallbacks to `/index.html`.
+3. Add the following environment variable in Vercel:
+   - `VITE_API_URL`: URL of your deployed backend (e.g., `https://sbu-umang-api.onrender.com`).
+4. Click **Deploy**.
+
+### Traditional Backend Deployment (Docker / Linux VM / Cloud Run):
 ```bash
 cd backend
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4
-```
-
-### Frontend Deployment (Vercel / Cloudflare Pages / Nginx):
-```bash
-cd frontend
-npm install
-npm run build
-# The dist/ directory contains optimized static assets ready to be served by Nginx or CDN.
 ```
 
 ---
