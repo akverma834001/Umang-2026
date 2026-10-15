@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.npm/
+
+# Build artifacts
+dist/
+frontend/dist/
+.vercel/
+
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/app/__pycache__/
+backend/__pycache__/
+.venv/
+backend/.venv/
+env/
+venv/
+ENV/
+
+# Database WAL / SHM (keep primary sbu_events.db)
+*.db-shm
+*.db-wal
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch & Logs
+*.log
+scratch/
