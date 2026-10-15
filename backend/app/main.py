@@ -1,8 +1,9 @@
 import os
 import sys
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from dotenv import load_dotenv
 
 # Ensure root and backend directories are in sys.path
@@ -90,17 +91,57 @@ app.include_router(admin_archives.router)
 app.include_router(admin_leadership.router)
 
 
-@app.get("/")
-def root():
-    return {
-        "institution": "Sarala Birla University, Ranchi",
-        "service": "SBU UMANG Sports Meet Management & Live Dashboard API",
-        "canonical_timezone": "Asia/Kolkata (IST)",
-        "docs": "/api/docs",
-        "public_portal": "/api/sports"
-    }
-
-
 @app.get("/health")
 def health_check():
     return {"status": "healthy", "service": "SBU UMANG Sports Meet API"}
+
+
+# --- Static Frontend Serving & Single Link Support ---
+_dist_dir = os.path.abspath(os.path.join(_root_dir, "frontend", "dist"))
+if not os.path.exists(_dist_dir):
+    _dist_dir = os.path.abspath(os.path.join(_root_dir, "dist"))
+
+if os.path.exists(_dist_dir):
+    _assets_dir = os.path.join(_dist_dir, "assets")
+    if os.path.exists(_assets_dir):
+        app.mount("/assets", StaticFiles(directory=_assets_dir), name="assets")
+
+    @app.get("/")
+    async def serve_root():
+        index_path = os.path.join(_dist_dir, "index.html")
+        if os.path.exists(index_path):
+            return FileResponse(index_path)
+        return {
+            "institution": "Sarala Birla University, Ranchi",
+            "service": "SBU UMANG Sports Meet Management & Live Dashboard API",
+            "docs": "/api/docs",
+            "public_portal": "/api/sports"
+        }
+
+    @app.get("/{full_path:path}")
+    async def serve_spa(full_path: str):
+        # Do not intercept API routes, Swagger docs, or health endpoint
+        if full_path.startswith("api") or full_path.startswith("docs") or full_path.startswith("redoc") or full_path == "health":
+            raise HTTPException(status_code=404, detail="Not found")
+
+        # Check for static file in dist directory (e.g., logos, icons)
+        candidate_file = os.path.join(_dist_dir, full_path)
+        if os.path.isfile(candidate_file):
+            return FileResponse(candidate_file)
+
+        # Fallback to index.html for client-side routing (/admin/login, /schedule, etc.)
+        index_path = os.path.join(_dist_dir, "index.html")
+        if os.path.exists(index_path):
+            return FileResponse(index_path)
+        raise HTTPException(status_code=404, detail="Not found")
+else:
+    @app.get("/")
+    def root():
+        return {
+            "institution": "Sarala Birla University, Ranchi",
+            "service": "SBU UMANG Sports Meet Management & Live Dashboard API",
+            "canonical_timezone": "Asia/Kolkata (IST)",
+            "docs": "/api/docs",
+            "public_portal": "/api/sports"
+        }
+
