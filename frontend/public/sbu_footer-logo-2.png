@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link
+      rel="preload"
+      href="/fonts/Calendas-Plus.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/fonts/Talking.otf"
+      as="font"
+      type="font/otf"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarala Birla University</title>
+    <script type="module" crossorigin src="/assets/index-_qmwC5ZK.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C5bzGU9u.css">
+  </head>
+  <!-- <script
+    src="https://vaani-api.anugatai.com/bot-service/static/loader.js"
+    data-chatbot-id="6900f5fe73eaa17314e60970"
+    data-institute-id="69004d700fa56b2b4eb29319"
+    defer
+  ></script> -->
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,468 @@
+Faculties and Divisions
+---
+ADMISSIONS
+---
+,{className:`absolute top-full left-0 mt-2 bg-white rounded-lg shadow-xl border-t border-gray-100 transition-all duration-300 ease-in-out ${o.admission?
+---
+https://admission.sbu.ac.in/
+---
+admissions
+---
+})]}),i.admissions?e.jsx(jr,{className:
+---
+})]}),i.admissions&&e.jsx(
+---
+mailto:admissions@sbu.ac.in
+---
+admissions@sbu.ac.in
+---
+❌ Submission error:
+---
+https://admission.sbu.ac.in
+---
+Admissions Open
+---
+University Grants Commission
+---
+Contact our admissions team
+---
+Our Vision
+---
+Our Mission
+---
+Celebrating the life and contributions of visionary leaders who dedicated their lives to education and social welfare.
+---
+Ex Chief Information Commissioner, Jharkhand
+---
+Admission process documentation and prospectus
+---
+Admission Process
+---
+The Vision of the department is to produce competent software professionals suitable for industries and organizations at a global level, including research and development with social responsibility.
+---
+Vision & Mission
+---
+Have questions about the admission process or eligibility criteria? Find answers here.
+---
+What is the eligibility criteria for admission?
+---
+What is the admission process?
+---
+Applicants may submit the application form and required documents at the Admission Office personally or by post. It is the applicant's responsibility to ensure that the application form is complete in all respects and accompanied by the required documents.
+---
+What documents are required for admission?
+---
+The following documents are required for admission:
+---
+Passing/Provisional Certificates and Mark Sheets
+---
+Our mission is to empower students with the skills and knowledge needed to excel in the dynamic field of Journalism & Mass Communication. We aim to instill ethical values, promote cultural awareness, and cultivate a passion for truth-seeking and storytelling in our students.
+---
+}],N={Chemistry:{vision:
+---
+,mission:[
+---
+]},Physics:{vision:
+---
+]},Mathematics:{vision:
+---
+Our mission is to empower students with the skills and knowledge needed to excel in the dynamic field of Applied Science. We aim to instill ethical values, promote cultural awareness, and cultivate a passion for problem-solving and innovation in our students.
+---
+,children:N[t].vision})]})]})]})}),e.jsx(
+---
+,children:N[t].mission.map((U,H)=>e.jsxs(
+---
+Our mission is to empower students with the skills and knowledge needed to excel in the dynamic fields of Art, Culture & Sports. We aim to instill ethical values, promote cultural awareness, and cultivate a passion for artistic expression and physical excellence in our students.
+---
+Our mission is to empower students with the skills and knowledge needed to excel in the transformative fields of Yogic Sciences & Naturopathy. We aim to promote health, ethical values, and cultural awareness while cultivating a passion for wellness and natural healing.
+---
+Our mission is to empower students with the skills and knowledge needed to excel in the dynamic field of Social Sciences. We aim to instill ethical values, promote cultural awareness, and cultivate a passion for truth-seeking and storytelling in our students. WHY SBU?
+---
+Charged once during admission
+---
+80% of fee deposited at the time of admission
+---
+60% of fee deposited at the time of admission
+---
+40% of fee deposited at the time of admission
+---
+Fees refers to any tuition/semester fee, hostel fee, transportation fee, or other institutional fees paid toward admission, excluding non-refundable application/counselling fee ',e.jsx(
+---
+[Provisional Admission Fees – ₹15000 comprises of two components namely Counselling Fees ₹10000 and Admission Fees ₹5000]
+---
+Scholarship provided at the time of admission will be subject to verification of original documents in Counselling.
+---
+(Admission + Other Charges)
+---
+One-Time Fees (Payable at Admission):
+---
+Passing / Provisional Certificates along with Mark Sheets of the qualifying Examinations
+---
+Provisional Certificates & Mark Sheets
+---
+The internship helps students apply theoretical knowledge in real-world scenarios and gain exposure to corporate environments. Students are allowed to choose their own companies, and submission of a report is mandatory.
+---
+SBU ensures that students graduating from the University gain an additional edge that keeps them ahead of the competition. With this vision, the University regularly conducts personality development classes. The BBA–Capital Market programme is particularly suited for students with a strong interest in finance and capital markets.
+---
+Applicants may submit the application form and required documents at the Admission Office personally or by post. It is the applicant's responsibility to ensure the form is complete and includes all required documents.
+---
+Passing/Provisional Certificates with Mark Sheets
+---
+Applicants may submit the application form and required documents at the Admission Office personally or by post.
+---
+Passing / Provisional Certificates and Mark Sheets of qualifying exams
+---
+Engaging with diplomatic missions, ministries, and international organizations for educational and research partnerships.
+---
+Associate Dean (Admissions)
+---
+Admissions
+---
+Philosophical Vision Of Swami Vivekananda For Man–Making Education
+---
+Acronyms and symbols must be defined at first mention, in titles, abstracts, as well as within the text. For nomenclature, abbreviations, symbols, and units, authors should follow internationally accepted rules, including those adopted by the Commission on Biochemical Nomenclature.
+---
+Submission Process
+---
+The submitting author, who is generally the corresponding author, is responsible for the manuscript during the submission and peer review process. The submitting author must ensure that all eligible co-authors have been included in the author list and that they have all read and approved the submitted version of the manuscript.
+---
+When your manuscript reaches the revision stage, you will be requested to format the manuscript according to the journal guidelines.
+---
+A cover letter must be included with each manuscript submission. It should be concise and explain why the content of the paper is significant, placing the findings in the context of existing work. It should explain why the manuscript fits the scope of the journal.
+---
+Authors are encouraged to add a biography (300–1500 characters) to the submission and upload it.
+---
+Research Data and supplementary materials: Note that publication of your manuscript implies that you must make all materials, data, and protocols associated with the publication available to readers. Disclose at the submission stage any restrictions on the availability of materials or information.
+---
+File for Figures and Schemes must be provided during submission in a single zip archive and at a sufficiently high resolution (minimum 1000 pixels width/height, or a resolution of 300 dpi or higher).
+---
+All submissions must include disclosure of all relationships that could be viewed as presenting a potential conflict of interest.
+---
+Applicants may submit the application form and required documents at the Admission Office personally or by post. It is the applicant's responsibility to ensure that the application form is complete and accompanied by the required documents.
+---
+Identify opportunities, entrepreneurship vision and use of innovative ideas to create value and wealth for the betterment of the individual and society.
+---
+Applicants may submit the application form and required documents at the Admission Office personally or by post. It is the applicant's responsibility to ensure that the application form is complete in all respects, and is accompanied by the required documents.
+---
+Final Year students awaiting the declaration of results can also apply and can also be considered for Admission. However, they have to submit the relevant supportive documents at the time of admission.
+---
+Passing / Provisional Certificates along with Mark Sheets
+---
+Enhancing student intake quality through rigorous admission criteria.
+---
+Note: Final Year students awaiting the declaration of results can also apply and can also be considered for Admission. However, they have to submit the relevant supportive documents at the time of admission
+---
+The minimum age for admission shall be 17 years on 31st December of the year in which admission is sought. The maximum age limit for admission shall be 35 years.
+---
+What is the eligibility criteria for D.Pharm admission?
+---
+To build an egalitarian global society based on national integrity, equality, social justice, secularism, freedom and fraternity, international understanding, and a scientific approach to societal challenges, as enshrined in the Constitution of India. This vision is pursued through dynamic teaching–learning processes supported by curricular and co-curricular activities.
+---
+Department Vision
+---
+Department Mission
+---
+Submissions can be done personally or by post. Applicants must ensure that all required documents are attached and the form is complete.
+---
+Passing / Provisional Certificates and Mark Sheets
+---
+To build an egalitarian global society based on national integrity, equality, social justice, secularism, freedom and fraternity, international understanding, and a scientific approach to societal challenges, as enshrined in the Constitution of India. This vision is achieved through dynamic teaching–learning processes supported by curricular and co-curricular activities.
+---
+To build an egalitarian global society based on national integrity, equality, social justice, secularism, freedom and fraternity, international understanding, and a scientific approach to societal challenges, as enshrined in the Constitution of India. This vision is realized through dynamic teaching–learning processes supported by curricular and co-curricular activities.
+---
+To be a leading institution globally, recognized for excellence in Journalism & Mass Communication education, research, and innovation. Our vision is to empower students with the knowledge and skills needed to thrive in the dynamic media industry, making a positive impact on society.
+---
+The candidates should fulfill the following eligibility criteria to take admission into BVA courses:
+---
+The admission to the BVA courses is usually based on the entrance test conducted by the particular institute. The institutes conduct an aptitude and creative test, followed by a personal interview. The admission procedure followed by the top institutes are mentioned below:
+---
+Graduates of the B.V.A. programme find career opportunities in art studios, museums and galleries, film and television industries, photography studios, fashion and clothing industries, and other creative sectors.
+---
+SBU ensures that students graduating from the University gain an additional edge that keeps them ahead of the rest. With this vision, the University regularly conducts personality development classes along with the core subject of Yoga.
+---
+SBU ensures that students graduating from the University possess an extra edge that sets them apart. With this vision, the University regularly conducts personality development classes alongside the core subject of Yoga.
+---
+The program strives to cultivate forthcoming economists and visionary leaders capable of addressing evolving socio-economic challenges through inclusive approaches, both locally and globally.
+---
+Submit a declaration on substance abuse on plain A4 paper at your college on the reporting day. Non-compliance may result in admission cancellation.
+---
+Cancellation of admission.
+---
+Include policy in prospectus/admission forms
+---
+permissionsRefresh
+---
+permissions
+---
+)}finally{i(!1)}},m=h=>{const g=new Map;return h.forEach(p=>{p.permissions.forEach(x=>{if(g.has(x.module)){const v=g.get(x.module),f=[...new Set([...v.actions,...x.actions])];g.set(x.module,{...x,actions:f})}else g.set(x.module,{...x})})}),Array.from(g.values())},u=h=>{const{name:g,value:p}=h.target;a(x=>({...x,[g]:p}))};return e.jsxs(
+---
+Error initializing permissions:
+---
+,o)}},[i]),e.jsx(dfe.Provider,{value:{permissions:s,loading:a,updatePermissions:l},children:t})},uH=()=>{const t=w.useContext(dfe);if(t===void 0)throw new Error(
+---
+usePermissions must be used within a PermissionsProvider
+---
+);return t},Or=({children:t,requiredPermission:s,requireFeedback:r=!0})=>{const a=ts(),{permissions:n,loading:i}=uH();return localStorage.getItem(
+---
+]})})]})})]})})},CKe=({sidebarOpen:t,setSidebarOpen:s})=>{const r=ts(),a=$t(),n=w.useRef(null),i=w.useRef(null),l=w.useRef(null),o=r.pathname,{permissions:c}=uH(),d=localStorage.getItem(
+---
+Academics & Admissions
+---
+Admission & Fees
+---
+,permission:{module:
+---
+,permission:null,icon:j9}]},{sectionTitle:
+---
+,permission:null,icon:nr},{label:
+---
+,permission:null,icon:f9,subLinks:[{label:
+---
+,permission:null,icon:OCe},{label:
+---
+,permission:null,icon:ZS},{label:
+---
+,permission:null,icon:hs},{label:
+---
+,permission:null,icon:tr},{label:
+---
+,permission:null,icon:Sr},{label:
+---
+,permission:null,icon:uo}]}]}],[]),h=w.useCallback(C=>C?c==null?void 0:c.some(k=>k.module===C.module&&k.actions.includes(C.action)):!0,[c]),g=w.useCallback((C,k,P)=>!P||h(P)?!0:(C.preventDefault(),a(
+---
+,N)),[N]);const _=w.useCallback(({path:C,label:k,permission:P,icon:O})=>{const D=x(C);return e.jsx(hV,{to:C,onClick:T=>{y(),g(T,C,P)},className:D?
+---
+}`,children:P.subLinks.map(D=>e.jsx(_,{path:D.path,label:D.label,permission:D.permission,icon:D.icon},D.path))})]},P.label)}return e.jsxs(hV,{to:P.path,end:!0,onClick:O=>{y(),g(O,P.path,P.permission)},className:({isActive:O})=>`group flex items-center space-x-3 px-4 py-3 rounded-lg transition-all duration-200 ${O||x(P.path)?
+---
+,Vision:D.vision||
+---
+);const{permissions:c}=uH(),d=$t(),m=()=>d(
+---
+,permission:null,icon:j9,iconBg:
+---
+,permission:null,icon:nr,iconBg:
+---
+View and respond to feedback submissions
+---
+,permission:null,icon:f9,iconBg:
+---
+,permission:null,icon:ZS,iconBg:
+---
+,permission:null,icon:hs,iconBg:
+---
+,permission:null,icon:tr,iconBg:
+---
+,permission:null,icon:Sr,iconBg:
+---
+,permission:null,icon:uo,iconBg:
+---
+,{onClick:()=>g(j.path,j.permission),className:
+---
+e.g., Admission Fee, Library Fee
+---
+Invalid permission:
+---
+,m.userPermissions=m.userPermissions||[]),o=typeof t.userUnit==
+---
+),m!==null&&(Ga=new wy(m.userPermissions,m.userPassword,m.ownerPassword,G)),G};g.setFileId=function(Z){return H(Z),this},g.getFileId=function(){return U()};var R=g.__private__.convertDateToPDFDate=function(Z){var he=Z.getTimezoneOffset(),Me=he<0?
+---
+Division by zero
+---
+Provisional Certificate
+---
+${ge.provisionalCertificate||
+---
+🔄 Starting form submission...
+---
+application/vnd.ms-excel.revisionHeaders
+---
+application/vnd.ms-excel.revisionLog
+---
+application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml
+---
+application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml
+---
+cp:revision
+---
+PROTECT.REVISIONS
+---
+UNPROTECT.REVISIONS
+---
+<revisionPtr
+---
+Role / Division
+---
+);const _={...m,permissions:m.permissions.map(k=>({module:k.module,actions:k.actions}))},S=await PLe(_),C={...S,id:S._id,permissions:S.permissions.map(k=>({id:k._id,module:k.module,actions:k.actions}))};s([...t,C]),u({name:
+---
+,permissions:[]}),g(!1),n(
+---
+);const _={...l,permissions:l.permissions.map(k=>({module:k.module,actions:k.actions}))},S=await TLe(l.id,_),C={...S,id:S._id,permissions:S.permissions.map(k=>({id:k._id,module:k.module,actions:k.actions}))};s(t.map(k=>k.id===C.id?C:k)),o(null),d(!1),n(
+---
+Define a new role with specific permissions
+---
+,permissions:[]})},className:
+---
+Permissions & Access Rights
+---
+,children:Z7.map(N=>{const _=m.permissions.some(C=>C.module===N.module),S=m.permissions.find(C=>C.module===N.module);return e.jsxs(
+---
+Create your first role to get started with permission management
+---
+Permissions (
+---
+,((_=N.permissions)==null?void 0:_.length)||0,
+---
+,children:N.permissions&&N.permissions.length>0?N.permissions.map(S=>e.jsx(dHt,{module:S.module,actions:S.actions},S.id)):e.jsx(
+---
+No permissions assigned
+---
+Permissions
+---
+,children:Z7.map(N=>{const _=l.permissions.some(C=>C.module===N.module),S=l.permissions.find(C=>C.module===N.module);return e.jsxs(
+---
+);const[p,x]=await Promise.all([ELe(),kLe()]),v=p.map(y=>({...y,id:y._id,permissions:y.permissions.map(j=>({id:j._id,module:j.module,actions:j.actions}))})),f=x.users.map(y=>{let j=[];return y.roles&&Array.isArray(y.roles)?j=y.roles.map(N=>typeof N==
+---
+You don't have permission to access this resource.
+---
+?X.createdAt:X.submissionDate;if(se!==
+---
+||!J)&&ue.createdAt||ue.submissionDate),ee=K.filter(ue=>le(ue)>=X).length,ce=K.filter(ue=>le(ue)>=ge).length;return{total:se,recent:ee,monthly:ce}},z=()=>{if(r!==
+---
+Submission Date
+---
+,children:new Date(p.submissionDate).toLocaleDateString(
+---
+submissionDate
+---
+?J.createdAt:J.submissionDate).toLocaleDateString(
+---
+Form submission error:
+---
+Television
+---
+Future plans and vision
+---
+,element:e.jsx(Or,{requiredPermission:{module:
+---
+Provisional Fee
+---
+Provisionally Selected Ph.D. Candidate List, Session 2026-27(Monsoon)
+---
+Date of Admission
+---
+Session-wise PhD Admissions
+---
+No of PhD Admissions
+---
+,admissions:14},{session:
+---
+,admissions:27},{session:
+---
+,admissions:9},{session:
+---
+,admissions:54},{session:
+---
+,admissions:52}].map((x,v)=>e.jsxs(
+---
+,children:x.admissions})]},v))})]})})})})]}),e.jsxs(
+---
+In order to be eligble for admission in Ph.D Program, a minimum of 55% Marks including OFFLINE ENTRANCE TEST, ACADEMIC RECORD and INTERVIEW should be obtained.
+---
+Candidates with the following qualifications shall be eligible for admission to the Ph.D. Program of the University:
+---
+from the University is mandatory for University employees and must be obtained before appearing for the admission test.
+---
+from their respective employers before payment of admission fees.
+---
+Admissions Office/Departments may not scrutinize applications before document verification. Shortlisted candidates appearing for the Entrance Test are considered on a provisional basis.
+---
+Appearing for the Test does not guarantee admission
+---
+Submission of an application form
+---
+Counselling of New Batch [Semester-I] & Semester III (Lateral Admission)
+---
+The examination department is responsible for the issuance of Marks statements, Grade cards, Degree Certificates, Provisional Certificates, Degree Transcripts, Bonafide certificates, Backlog Summary Reports, Special reports for scholarships. Duplicate certificates are also issued provided proper requests are made and required documentation is available.
+---
+Direct linking to the information hosted on the SBU website is permitted without prior permission. However, the university appreciates being informed about such links to enable notification of any updates or changes. The university strictly prohibits its website pages from being loaded into frames on other websites; all links should open in a new browser window.
+---
+Associate Dean, Admissions
+---
+/Images/Iqac Mission Pyramid.png
+---
+IQAC Mission Pyramid
+---
+Basant Kumar Birla Memorial Lecture (Necessity and Impact of Computational Guidance on Complex Space Missions - Dr. Radhakant Padhi)
+---
+The University has the provision of lifts for students with disabilities in their legs. There are no barriers and the students can easily move about.
+---
+Currently, there is no provision for special learning and assistive devices. In case such students get enrolled, the University shall definitely make arrangements.
+---
+opportunities to implement theoretical knowledge. The goal is to expose students to hands-on experiences and open-ended, real-world engineering projects, as well as provide support for faculty and students involved in research projects.'}),e.jsx(
+---
+,admissionNo:
+---
+Admission No
+---
+,children:c.admissionNo}),e.jsx(
+---
+Admission No:
+---
+,c.admissionNo]}),e.jsxs(
+---
+Every student desirous of staying in the hostel shall fill up a separate hostel admission form giving his/her full details, photograph and his/her parent's and local guardian details along with their address, telephone numbers and two passport size photo-graphs.
+---
+All visitors to the hostel including the parents/guardian will have to take permission from the Hostel Superintendent to meet their ward. Visitors shall be allowed only on Sundays. They shall be required to make necessary entries in the visitors' book available with the security personnel at the institute entrance.
+---
+Students should not keep any unauthorized guests in his/her room. No person, either guest or otherwise shall be permitted to stay overnight in any part of the hostel. In case, guests want to stay overnight in the hostel, he/she should take permission from Hostel Superintendent/Hostel Warden.
+---
+The usual institute timings are 9.00 am to 4.30 pm. Students are not allowed to stay in the hostel during the class hours unless the stay is unavoidable due to illness or any other valid reason. In such cases they should take the permission from the Warden in writing.
+---
+No student shall leave the hostel without prior permission of the hostel warden.
+---
+No girl boarder is allowed to go outside the hostel, except for regular classes in the University, without prior permission of the hostel warden. And if allowed to go to the market for buying any essential items, the same shall be done in the company of any faculty member residing in the girls' hostel only on Sundays.
+---
+Thesis Submission
+---
+Books will not be issued for the vacations, except with special permission, and these must be returned as soon as the vacation is over.
+---
+Under the National Mission on Education through ICT
+---
+Admission Procedure/प्रवेश प्रक्रिया
+---
+Admission Procedure
+---
+Lloyd AC Division, Delhi
+---
+What is the eligibility criteria for admission to Diploma in Mechanical Engineering?
+---
+https://admission.sbu.ac.in/? utm_source=Website&utm_medium=Homepage&utm_campaign=ApplyNowTab
+---
+or contact the admission office directly.
+---
+Innovation and Entrepreneurship: Identify opportunities, entrepreneurship vision and use of innovative ideas to create value and wealth for the betterment of the individual and society.
+---
+https://admission.sbu.ac.in/?utm_source=Website&utm_medium=Homepage&utm_campaign=ApplyNowTab
+---
+Power engineers, grid operators, substation engineers in power plants, distribution companies, and transmission corporations
+---
+Vision and Mission of the University
+---
+Vision and Mission of Department of Law
+---
+Have questions about the admission process or eligibility criteria?  Find answers here.
+---
+Curriculum Revision
+---
+List of programs where syllabus revision occurred.
+---
+Vision/Mission alignment, Strategic plan
+---
+Intake approval, Admission extracts.
+---
+Abstract Submission
+---
+Full Paper Submission
+---
+General Enquiries & Paper Submission
+---
