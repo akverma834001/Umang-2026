@@ -7,30 +7,12 @@ load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./sbu_events.db")
 
-# Normalize postgres URLs to postgresql+psycopg2
+# If user provided a postgres:// URL (older format or from Heroku/Neon), convert to postgresql://
 if DATABASE_URL.startswith("postgres://"):
-    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql+psycopg2://", 1)
-elif DATABASE_URL.startswith("postgresql://"):
-    DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg2://", 1)
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
-# On Vercel serverless, root filesystem is read-only; use /tmp for SQLite fallback
-if os.getenv("VERCEL") and DATABASE_URL.startswith("sqlite"):
-    import shutil
-    tmp_db = "/tmp/sbu_events.db"
-    root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
-    root_db = os.path.join(root_dir, "sbu_events.db")
-    backend_db = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "sbu_events.db"))
-    if not os.path.exists(tmp_db):
-        for candidate in (root_db, backend_db):
-            if os.path.exists(candidate):
-                try:
-                    shutil.copyfile(candidate, tmp_db)
-                    break
-                except Exception:
-                    pass
-    DATABASE_URL = f"sqlite:///{tmp_db}"
 # Ensure relative SQLite path resolves reliably to project root or backend db
-elif DATABASE_URL in ("sqlite:///./sbu_events.db", "sqlite:///sbu_events.db"):
+if DATABASE_URL in ("sqlite:///./sbu_events.db", "sqlite:///sbu_events.db"):
     # Look for sbu_events.db at workspace root first, then backend
     root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
     root_db = os.path.join(root_dir, "sbu_events.db")

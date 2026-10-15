@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { api } from '../../services/api';
 import { SportItem } from '../../types';
 import {
   Trophy,
@@ -32,12 +31,16 @@ export const SportsPage: React.FC = () => {
   const fetchSports = async () => {
     try {
       setLoading(true);
-      const data = await api.getSports({
-        category: selectedCategory !== 'All' ? selectedCategory : undefined,
-        gender: selectedGender !== 'All' ? selectedGender : undefined,
-        search: search.trim() ? search.trim() : undefined
-      });
-      setSports(data);
+      const params = new URLSearchParams();
+      if (selectedCategory !== 'All') params.append('category', selectedCategory);
+      if (selectedGender !== 'All') params.append('gender', selectedGender);
+      if (search) params.append('search', search);
+
+      const res = await fetch(`/api/sports?${params.toString()}`);
+      if (res.ok) {
+        const data = await res.json();
+        setSports(data);
+      }
     } catch (err) {
       console.error('Failed to load sports:', err);
     } finally {

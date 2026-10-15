@@ -3,7 +3,8 @@ import type {
   LeadershipSectionResponse,
   LeadershipMemberPayload,
 } from '../types';
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string) || (import.meta.env.VITE_API_URL ? `${(import.meta.env.VITE_API_URL as string).replace(/\/$/, '')}/api` : '/api');
+
+const API_BASE = '/api';
 
 function getAuthHeaders(): Record<string, string> {
   const token = localStorage.getItem('sbu_admin_token');
