@@ -68,17 +68,14 @@ API Documentation will be accessible at: `http://127.0.0.1:8000/api/docs`
 
 ### 2. Frontend Setup & Startup
 ```bash
-# Navigate to frontend directory
-cd frontend
-
-# Install npm dependencies
+# Install npm dependencies (at project root)
 npm install
-
-# Build for production
-npm run build
 
 # Start local development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 The Public Portal will be accessible at: `http://localhost:5173`
 

@@ -16,9 +16,18 @@ from backend.app.services.audit_service import log_audit
 
 router = APIRouter(prefix="/api/admin/leadership", tags=["Admin Leadership & Sports Incharges"])
 
-UPLOAD_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "..", "..", "frontend", "public", "images", "leadership")
-)
+_root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+_root_upload = os.path.join(_root_dir, "public", "images", "leadership")
+_frontend_upload = os.path.join(_root_dir, "frontend", "public", "images", "leadership")
+
+if os.getenv("VERCEL"):
+    UPLOAD_DIR = "/tmp/images/leadership"
+elif os.path.exists(_root_upload):
+    UPLOAD_DIR = _root_upload
+elif os.path.exists(_frontend_upload):
+    UPLOAD_DIR = _frontend_upload
+else:
+    UPLOAD_DIR = _root_upload
 
 
 @router.get("", response_model=List[LeadershipMemberOut])
