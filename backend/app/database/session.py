@@ -12,12 +12,26 @@ if DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
 # Ensure relative SQLite path resolves reliably to project root or backend db
-if DATABASE_URL in ("sqlite:///./sbu_events.db", "sqlite:///sbu_events.db"):
+if DATABASE_URL in ("sqlite:///./sbu_events.db", "sqlite:///sbu_events.db") or DATABASE_URL.startswith("sqlite:///"):
     # Look for sbu_events.db at workspace root first, then backend
     root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
     root_db = os.path.join(root_dir, "sbu_events.db")
     backend_db = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "sbu_events.db"))
     target_db = root_db if os.path.exists(root_db) else backend_db
+
+    # On Vercel serverless environment, the function filesystem is read-only.
+    # Copy pre-seeded sqlite database to /tmp if running under Vercel
+    if os.environ.get("VERCEL"):
+        import shutil
+        tmp_db = "/tmp/sbu_events.db"
+        if os.path.exists(target_db) and not os.path.exists(tmp_db):
+            try:
+                shutil.copy2(target_db, tmp_db)
+            except Exception:
+                pass
+        if os.path.exists(tmp_db):
+            target_db = tmp_db
+
     DATABASE_URL = f"sqlite:///{target_db.replace(os.sep, '/')}"
 
 connect_args = {}
