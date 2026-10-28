@@ -2,9 +2,10 @@
   "name": "sbu-umang-unified-platform",
   "version": "2.0.0",
   "private": true,
-  "description": "SBU UMANG Platform - Vercel Ready",
+  "description": "SBU UMANG Platform - Production Ready",
   "scripts": {
     "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node server.js",
     "dev": "npm --prefix frontend run dev"
   }
 }
