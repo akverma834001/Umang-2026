@@ -1,0 +1,17 @@
+.git
+.github
+.env
+.env.local
+.venv/
+backend/.venv/
+node_modules/
+frontend/node_modules/
+backend/tests/
+tests/
+.pytest_cache/
+backend/.pytest_cache/
+__pycache__/
+*.pyc
+*.db-shm
+*.db-wal
+scratch/

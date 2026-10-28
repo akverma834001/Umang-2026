@@ -4,7 +4,17 @@ import type {
   LeadershipMemberPayload,
 } from '../types';
 
-const API_BASE = '/api';
+const RAW_API_BASE = (
+  (import.meta.env.VITE_API_BASE_URL as string | undefined) ||
+  (import.meta.env.VITE_API_URL as string | undefined) ||
+  '/api'
+).trim();
+
+const API_BASE = RAW_API_BASE.endsWith('/api')
+  ? RAW_API_BASE
+  : RAW_API_BASE === '' || RAW_API_BASE === '/'
+  ? '/api'
+  : `${RAW_API_BASE.replace(/\/+$/, '')}/api`;
 
 function getAuthHeaders(): Record<string, string> {
   const token = localStorage.getItem('sbu_admin_token');

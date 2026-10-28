@@ -16,8 +16,12 @@ from backend.app.services.audit_service import log_audit
 
 router = APIRouter(prefix="/api/admin/leadership", tags=["Admin Leadership & Sports Incharges"])
 
-UPLOAD_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "..", "..", "frontend", "public", "images", "leadership")
+UPLOAD_DIR = (
+    "/tmp/images/leadership"
+    if os.environ.get("VERCEL")
+    else os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "..", "..", "frontend", "public", "images", "leadership")
+    )
 )
 
 

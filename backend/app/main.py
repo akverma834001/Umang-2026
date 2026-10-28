@@ -2,7 +2,7 @@ import os
 import sys
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
 from dotenv import load_dotenv
 
 # Ensure root and backend directories are in sys.path
@@ -54,10 +54,12 @@ app = FastAPI(
 # CORS Configuration
 raw_origins = os.getenv("CORS_ORIGINS", "http://localhost:5175,http://127.0.0.1:5175,http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000")
 origins = [origin.strip() for origin in raw_origins.split(",") if origin.strip()]
+cors_origin_regex = os.getenv("CORS_ORIGIN_REGEX", r"^https?:\/\/.*")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins if origins else ["*"],
+    allow_origin_regex=cors_origin_regex,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -108,3 +110,19 @@ def root():
 @app.get("/api/health")
 def health_check():
     return {"status": "healthy", "service": "SBU UMANG Sports Meet API"}
+
+
+@app.get("/images/leadership/{filename}")
+@app.get("/api/images/leadership/{filename}")
+async def get_leadership_image(filename: str):
+    """Serve uploaded leadership images safely."""
+    safe_filename = os.path.basename(filename)
+    candidates = [
+        os.path.abspath(os.path.join(_root_dir, "frontend", "public", "images", "leadership", safe_filename)),
+        os.path.abspath(os.path.join(_backend_dir, "..", "frontend", "public", "images", "leadership", safe_filename)),
+        os.path.join("/tmp/images/leadership", safe_filename),
+    ]
+    for path in candidates:
+        if os.path.exists(path) and os.path.isfile(path):
+            return FileResponse(path)
+    return JSONResponse(status_code=404, content={"detail": "Image not found"})
