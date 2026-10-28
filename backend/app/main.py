@@ -47,7 +47,6 @@ app = FastAPI(
     version="2.0.0",
     docs_url="/api/docs",
     redoc_url="/api/redoc",
-    openapi_url="/api/openapi.json",
     lifespan=lifespan
 )
 
@@ -92,8 +91,6 @@ app.include_router(admin_leadership.router)
 
 
 @app.get("/")
-@app.get("/api")
-@app.get("/api/")
 def root():
     return {
         "institution": "Sarala Birla University, Ranchi",
@@ -105,7 +102,5 @@ def root():
 
 
 @app.get("/health")
-@app.get("/api/health")
 def health_check():
     return {"status": "healthy", "service": "SBU UMANG Sports Meet API"}
-

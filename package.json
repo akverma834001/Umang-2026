@@ -1,9 +1,0 @@
-{
-  "name": "sbu-umang-unified-platform",
-  "version": "2.0.0",
-  "private": true,
-  "description": "SBU UMANG Platform - Vercel Ready",
-  "scripts": {
-    "build": "cd frontend && npm install && npm run build"
-  }
-}
