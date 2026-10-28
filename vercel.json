@@ -5,16 +5,7 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
-      "includeFiles": [
-        "backend/**",
-        "sbu_events.db"
-      ],
-      "excludeFiles": [
-        "backend/.venv/**",
-        "backend/.pytest_cache/**",
-        "backend/tests/**",
-        "**/__pycache__/**"
-      ]
+      "includeFiles": "backend/**"
     }
   },
   "rewrites": [
